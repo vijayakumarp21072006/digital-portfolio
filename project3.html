@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unique Webpage</title>
+  <style>
+    /* Basic reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body Styling */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header Section */
+    header {
+      background: #333;
+      color: white;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      animation: fadeIn 2s ease-out;
+    }
+
+    header p {
+      font-size: 1.2em;
+      opacity: 0.8;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(to right, #ff7e5f, #feb47b);
+      padding: 100px 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      opacity: 0.9;
+    }
+
+    .hero button {
+      background-color: #fff;
+      color: #ff7e5f;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.1em;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .hero button:hover {
+      background-color: #ff7e5f;
+      color: white;
+    }
+
+    /* About Section */
+    .about {
+      padding: 50px 20px;
+      background: #ffffff;
+      text-align: center;
+    }
+
+    .about h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      font-size: 1.2em;
+      color: #777;
+      margin-bottom: 30px;
+    }
+
+    .about img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Contact Form */
+    .contact {
+      background-color: #333;
+      color: white;
+      padding: 50px 20px;
+    }
+
+    .contact h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .contact form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .contact input, .contact textarea {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    .contact button {
+      background-color: #ff7e5f;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1.2em;
+      transition: background-color 0.3s;
+    }
+
+    .contact button:hover {
+      background-color: #feb47b;
+    }
+
+    /* Footer Section */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+
+    footer p {
+      font-size: 1.1em;
+    }
+
+    /* Animation */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to My Unique Webpage</h1>
+    <p>Your journey starts here</p>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Discover the World of Innovation</h2>
+    <p>Explore the latest trends and technologies that will shape the future.</p>
+    <button onclick="location.href='#about'">Learn More</button>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>We are a team of innovators passionate about making the web a better place. Our goal is to create unique and user-friendly web experiences for people all over the world.</p>
+    <img src="https://via.placeholder.com/300" alt="Team Image">
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 My Unique Webpage. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

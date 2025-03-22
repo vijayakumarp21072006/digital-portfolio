@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Resume</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body styling */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Container for the entire page */
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Header Section */
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      color: #333;
+    }
+
+    header h2 {
+      font-size: 1.5em;
+      color: #777;
+    }
+
+    /* Contact Information Section */
+    .contact {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+
+    .contact div {
+      font-size: 1.1em;
+    }
+
+    .contact div a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+
+    .contact div a:hover {
+      text-decoration: underline;
+    }
+
+    /* Skills Section */
+    .skills {
+      margin-bottom: 30px;
+    }
+
+    .skills h3 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    .skills ul {
+      list-style: none;
+    }
+
+    .skills li {
+      background-color: #f2f2f2;
+      padding: 8px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      font-size: 1.1em;
+    }
+
+    /* Experience Section */
+    .experience, .education {
+      margin-bottom: 30px;
+    }
+
+    .experience h3, .education h3 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    .experience div, .education div {
+      margin-bottom: 20px;
+    }
+
+    .experience .role, .education .degree {
+      font-size: 1.2em;
+      color: #0077b6;
+    }
+
+    .experience .company, .education .institution {
+      font-size: 1em;
+      color: #777;
+    }
+
+    /* Footer Section */
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 1.2em;
+      color: #777;
+    }
+
+    /* Responsive Design */
+    @media only screen and (max-width: 768px) {
+      .contact {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .contact div {
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header Section -->
+    <header>
+      <h1>Your Name</h1>
+      <h2>Web Developer | Software Engineer</h2>
+    </header>
+
+    <!-- Contact Section -->
+    <div class="contact">
+      <div>
+        <strong>Email:</strong> <a href="mailto:youremail@example.com">youremail@example.com</a>
+      </div>
+      <div>
+        <strong>Phone:</strong> (123) 456-7890
+      </div>
+      <div>
+        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yourname" target="_blank">yourname</a>
+      </div>
+      <div>
+        <strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank">yourusername</a>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="skills">
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML5, CSS3, JavaScript</li>
+        <li>React, Node.js, Express</li>
+        <li>Python, Django, Flask</li>
+        <li>Git, GitHub, Version Control</li>
+        <li>Responsive Web Design</li>
+      </ul>
+    </div>
+
+    <!-- Experience Section -->
+    <div class="experience">
+      <h3>Experience</h3>
+      <div>
+        <div class="role">Frontend Developer</div>
+        <div class="company">XYZ Company, San Francisco, CA</div>
+        <div class="dates">January 2021 - Present</div>
+        <ul>
+          <li>Developed interactive web applications using React.js</li>
+          <li>Collaborated with UX/UI designers to create a seamless user experience</li>
+          <li>Worked with back-end developers to integrate RESTful APIs</li>
+        </ul>
+      </div>
+      <div>
+        <div class="role">Junior Web Developer</div>
+        <div class="company">ABC Corp, Los Angeles, CA</div>
+        <div class="dates">June 2019 - December 2020</div>
+        <ul>
+          <li>Built responsive websites using HTML, CSS, and JavaScript</li>
+          <li>Assisted senior developers in coding and debugging</li>
+          <li>Maintained and updated company websites</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="education">
+      <h3>Education</h3>
+      <div>
+        <div class="degree">Bachelor of Science in Computer Science</div>
+        <div class="institution">University of XYZ, California</div>
+        <div class="dates">Graduated: May 2019</div>
+      </div>
+      <div>
+        <div class="degree">Certified Web Developer</div>
+        <div class="institution">Online Academy</div>
+        <div class="dates">Completed: December 2020</div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
